@@ -1,10 +1,10 @@
 # Lab 9 : Hooks React Native – Thème clair/sombre avec useColorScheme
 
-## 📋 Aperçu
+##  Aperçu
 
 Ce lab met en place un écran d'accueil React Native qui s'adapte automatiquement au thème système (clair/sombre) grâce au hook `useColorScheme`. L'interface applique des couleurs cohérentes (fond, texte, accent) et se met à jour immédiatement lorsque le thème de l'appareil change.
 
-## 🎯 Objectifs d'apprentissage
+## Objectifs d'apprentissage
 
 - Importer et instancier `useColorScheme`
 - Comprendre les valeurs possibles : `light`, `dark`, `null`
@@ -12,7 +12,7 @@ Ce lab met en place un écran d'accueil React Native qui s'adapte automatiquemen
 - Appliquer des styles conditionnels de manière lisible
 - Tester et valider le comportement sur émulateurs Android/iOS
 
-## 🚀 Installation
+##  Installation
 
 1. **Installer les dépendances**
    ```bash
@@ -31,7 +31,7 @@ Ce lab met en place un écran d'accueil React Native qui s'adapte automatiquemen
    npm run web      # Web
    ```
 
-## 📱 Structure du projet
+##  Structure du projet
 
 ```
 ThemeHookApp/
@@ -44,7 +44,7 @@ ThemeHookApp/
 └── app.json                    # Configuration Expo
 ```
 
-## 🎨 Palette de couleurs
+##  Palette de couleurs
 
 - **Accent** : `#EE9972` (orange/saumon)
 - **Mode clair** :
@@ -54,22 +54,22 @@ ThemeHookApp/
   - Fond : `#333333`
   - Texte : `#EDEFEE`
 
-## 🔍 Fonctionnalités principales
+##  Fonctionnalités principales
 
-- ✅ Détection automatique du thème système via `useColorScheme`
-- ✅ Adaptation immédiate des couleurs lors du changement de thème
-- ✅ Palette de couleurs centralisée et réutilisable
-- ✅ Styles conditionnels via tableaux de styles
-- ✅ Contraste optimal pour la lisibilité
+-  Détection automatique du thème système via `useColorScheme`
+-  Adaptation immédiate des couleurs lors du changement de thème
+-  Palette de couleurs centralisée et réutilisable
+-  Styles conditionnels via tableaux de styles
+-  Contraste optimal pour la lisibilité
 
-## 📝 Notions clés
+##  Notions clés
 
 - **Hook** : fonction permettant d'accéder aux fonctionnalités React dans un composant fonctionnel
 - **useColorScheme** : lecture et abonnement au thème système
 - **Styles conditionnels** : tableau de styles `[styleFixe, styleVariable]`
 - **Contraste** : assurer la lisibilité (texte clair sur fond sombre, et inversement)
 
-## 🧪 Test
+##  Test
 
 Pour tester la bascule clair/sombre :
 
@@ -77,11 +77,3 @@ Pour tester la bascule clair/sombre :
 2. **iOS** : Réglages → Affichage et luminosité → Mode sombre
 3. L'application se met à jour automatiquement sans redémarrage
 
-## 📚 Ressources
-
-- [Documentation React Native - useColorScheme](https://reactnative.dev/docs/usecolorscheme)
-- [Documentation Expo](https://docs.expo.dev/)
-
----
-
-**Note** : Aucun accès Internet n'est requis pour le fonctionnement de l'application (assets locaux uniquement).
